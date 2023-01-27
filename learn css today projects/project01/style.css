@@ -1,0 +1,14 @@
+
+ .main,.fotter{
+    background-color: purple;
+    color:white;
+    text-align:center;
+ }
+ .date{
+    color:grey;
+    font-style:italic;
+ }
+ .author{
+    color:grey;
+ }
+ 
