@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+}
+.first-section , .thrid-section {
+    background-color: green;
+}
+li:first-child
+{
+ color:blue;   
+}
+.order>li:last-child{
+  text-decoration: line-through;
+}
