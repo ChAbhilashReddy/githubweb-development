@@ -1,0 +1,28 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.main{
+    border:2px solid black;
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    color:white;
+    font-size:2em;
+}
+.list{
+    display:flex;
+    list-style: none;
+    margin:0;
+}
+.list a{
+    display:inline;
+    text-decoration: none;
+    color:white;
+    padding:2em;
+}
+.right:hover , .right:focus{
+   background-color: grey;
+}
+
