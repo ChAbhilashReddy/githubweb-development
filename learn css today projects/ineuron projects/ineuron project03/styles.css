@@ -21,6 +21,9 @@ li{
     padding: 0em 2em;
     font-weight: bolder;
 }
+li:first-child{
+   color: #9be5aa;
+}
 .container{
     display:flex;
     padding-left:6em;
