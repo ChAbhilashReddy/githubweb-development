@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    /*overflow: hidden;*/
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:0em 6em;
+}
+ul {
+    display: flex;
+}
+li{
+    list-style: none;
+    padding: 0em 2em;
+    font-weight: bolder;
+}
+.container{
+    display:flex;
+    padding-left:6em;
+    justify-content: center;
+    /*align-items: center;*/
+    height: 85vh;
+}
+/*.stetho{
+    z-index: -1;
+    position:relative;
+}*/
+.left{
+ width:70%;
+ padding-top: 1.5em;
+ position:relative;
+}
+.right{
+ width:30%;
+ position:relative;
+}
+h1{
+    font-size: 90px;
+    width:80%;
+}
+p{
+    padding:1em 0em;
+    width:80%;
+}
+.bottom{
+    position:absolute;
+    right:210px;
+}
+.mouse{
+    position:absolute;
+    right: 170px;
+    padding-top: 2em;
+}
+.btn{
+    padding:.5em 2em;
+    border-radius:1em;
+    border:none;
+    background-color: #9be5aa;
+    color:white;
+    font-weight: bolder;
+}
+.stetho{
+    position: absolute;
+    top:-5px;
+    left:50px;
+    width:90%;
+}
+.yellow{
+    position:absolute;
+    right: 0px;
+    bottom:0px;
+    width:100%;
+
+}
+.green{
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    width: 120%;
+
+}
+.doctor{
+    position:absolute;
+    height: 90vh;
+    right:0;
+    bottom:0;
+}
+
